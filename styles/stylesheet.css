@@ -1,0 +1,178 @@
+body {
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+#homepic {
+	background-image:url('../images/fnd.jpeg');
+    background-size: cover;		
+}
+
+#performancepic {
+	background-image:url('../images/openmic.jpg');
+	background-size: cover;
+}
+
+#menupic {
+	background-image:url('../images/coffee.jpeg');
+	background-size: cover;
+}
+
+#jobspic {
+	background-image:url('../images/happydude.jpg');
+	background-size: cover;
+}
+
+
+
+#quote {
+	font-family: "Courier New";
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.performers {
+	border-width: 2px;
+	border-color: white;
+	border-style: solid;
+	width: 40%;
+	height: 40%;
+	
+}
+
+article{
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+}
+#brand-image {
+	margin: 0 auto;
+}
+
+.alignright {
+	float:right;
+}
+.alignleft {
+	float:left;
+}
+.clearfloat {
+	clear: left;
+}
+article{
+	padding-left:5%;
+	padding-right:5%;
+	padding-top: 2%;
+	padding-bottom:5%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+footer{
+	background-color: black;
+	color:white;
+	text-align:center;
+	margin: auto 0;
+	bottom: 0;
+}
+alignleft1{
+	float:left;
+	width:33.3333333%;
+	text-align:left;
+}alignright1{
+	float:right;
+	width:33.3333333%;
+	text-align:right;
+}aligncenter1{
+	float:left;
+	width:33.3333333%;
+	text-align:left;
+}
+
+.wifi {
+	font-family: "Courier New";
+	font-size: 20px;
+	text-align:center;
+	font-weight: bold;
+}
+
+h1 {
+	text-align:center;
+	text-decoration: underline;
+	font-family: "Brandon Text W01";
+	letter-spacing: 10px;
+}
+
+h2 {
+	text-align:center;
+	text-decoration: underline;
+	font-family: "Brandon Text W01";
+	letter-spacing: 10px;
+}
+
+.maintext {
+	font-family: "Brandon Text W01";
+	font-size: 16px;
+}
+
+.listtext {
+	font-family: "Brandon Text W01";
+	
+}
+
+.footertext {
+	text-transform: uppercase;
+	font-family: "Brandon Text W01";
+	font-size: 15px;
+}
+
+.menutext {
+	font-family: "Courier New";
+	font-weight: 400;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.jobstext {
+	font-family: "Courier New";
+	font-size: 14px;
+	text-align: center;
+	
+}
+
+.performertext {
+	font-family: "Brandon Text W01";
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+.performertexthead {
+	font-family: "Brandon Text W01";
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#topbar2 {
+	background-color:black;
+	color:white;
+	text-align: center;
+	font-family: "Brandon Text W01";
+	font-weight: 300;
+	font-size: 25px;
+	letter-spacing: 18px;
+}
+	
+#topbar {
+	background-color:black;
+	color:white;
+	text-align: center;
+	font-family: "Brandon Text W01";
+	font-weight: 400;
+	font-size: 55px;
+	letter-spacing: 18px;
+	
+}

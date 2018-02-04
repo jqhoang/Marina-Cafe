@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <title>Cafe Marina Website</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen">
+   <link href="styles/stylesheet.css" rel="stylesheet">
+   
+   <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<!-- Image reference URL: http://www.abc.net.au/news/image/8272598-3x2-940x627.jpg -->
+<body id="jobspic">
+
+<!-- topbar header -->
+<div id="topbar" class="container-fluid hidden-xs hidden-sm">CAFÉ &nbsp;<img id="brand-image" alt="Brand" src="images/logo.png">&nbsp; MARINA</div>
+<div id="topbar2" class="container-fluid hidden-lg hidden-md">CAFE MARINA</div>
+
+<!-- navbar -->
+<nav class="navbar navbar-inverse nav-fill">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+		</button>
+   </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav">
+			<li><a class="navbar-item " href="Index.html">HOME<span class="sr-only">(current)</span></a></li>
+			<li><a class="navbar-item" href="Menu.html">MENU</a></li>
+			<li><a class="navbar-item" href="Performances.html">PERFORMANCES</a></li>			
+			<li class="active"><a class="navbar-item" href="Jobs.html">JOBS</a></li>	    
+		</ul>
+    </div>
+  </div>
+</nav> <!-- navbar end -->
+
+<article>
+
+<!-- FORM -->
+	<h2>WORK WITH US</h2>
+		<div  class="jobstext">
+			<p>Are you a college student who would like a part time job?</p>
+			<p>Apply at Marina Cafe! - We will work around your school schedule.</p>
+			<p>Complete the information form on the bottom to get the application process started.</p>
+			<p>Marina Cafe is an equal opportunity employer.</p>
+			<p>We celebrate the diversity of our associates.</p>
+			<h2>APPLICATION FORM</h2>
+		
+			<form role="form" method="POST" action="job_application.php">
+			
+				<!-- Name -->
+				<div class="form-group">
+				  <label for="name">Full Name:</label>
+				  <input type="text" class="form-control" name="name" id="name" placeholder="Enter Full Name">
+				</div>
+				
+				<!-- Email -->
+				<div class="form-group">
+				  <label for="pwd">Email:</label>
+				  <input type="email" class="form-control" name="email" id="email" placeholder="Enter Email">
+				</div> 
+
+				<!-- Phone Number -->
+				<div class="form-group">
+				  <label for="pwd">Phone Number:</label>
+				  <input type="text" class="form-control" name="phone" id="phonenumber" placeholder="Enter Phone Number">
+				</div>
+				
+				<!-- Job(s) -->
+				<div class="checkbox"><b>Please Select the Job(s) you are interested in: </b><br/>
+				  <label><input name="server" type="checkbox"> Server</label>
+				  <label><input name="bar_associate" type="checkbox"> Bar Associate</label>
+				  <label><input name="cleaning_maintenance" type="checkbox"> Cleaning & Maintenence</label>
+				  <label><input name="manager" type="checkbox"> Manager</label>
+				</div>
+				
+				<!-- Employment Type -->
+				<div class="radio" ><b>Employment Type: </b><br/>
+					<div class="radio">
+						<label><input type="radio" name="employment_type">Full Time</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="employment_type">Part Time</label>	
+					</div>
+				</div>
+				
+				<!-- Gender -->
+				<div class="radio"><b>Gender: </b><br/>
+					<label><input type="radio" name="gender">Male</label>
+					<label><input type="radio" name="gender">Female</label>	
+					<label><input type="radio" name="gender">Other</label>	
+				</div>			
+			
+				<!-- Years of Experience -->
+				<div class="form-group">Years of Experience
+					<label for="sel1">Select One</label>
+					<select name="years_of_experience" class="form-control" id="sel1">
+						<option value="" disabled selected>Pick</option>				
+						<option value="no_experience">No experience</option>
+						<option value="less_than_one">Less than 1 year</option>
+						<option value="more_than_one">More than 1 year</option>
+					</select>
+				</div>
+				
+				<!-- Comments text box -->
+				<div class="form-group">
+					<label for="inputlg">Comments</label>
+					<textarea class="form-control" rows="5" id="comment"></textarea>
+				</div>
+				
+				<!-- Submit and reset buttons -->
+				<button type="submit" class="btn btn-default">APPLY</button>
+				<button type="reset" class="btn btn-default">RESET</button>
+			</form>
+		</div>
+</article>
+
+<!-- Footer -->
+<footer> 
+<div>
+	<br/>
+		<p class="footertext">Copyright &copy; 2011 Marina Cafe</p>
+		<p class="footertext">667 Lawrence Ave<br />Kelowna, BC V1Y 6L8<br />1-888-888-8888</p>
+		<p class="footertext">Please contact us at: <a href='mailto&#58;%6Da%72in&#97;%40ma%&#55;2&#105;na&#99;%61%66e&#46;c&#111;m'>marina@marinacafe.com</a></p>
+		<br/>
+	</div>
+</footer> <!-- footer end -->
+
+
+</body>
+</html>
