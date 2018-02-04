@@ -1,10 +1,1 @@
-Jen-Hao Yeh
-A01025451
-jyeh23@my.bcit.ca
-
-John Hoang
-A01001941
-johnquochoang@gmail.com
-
-
-To the best of our knowledge we have fulfilled all requirements. We were not able to test php side connectivity.
+A project made as part of the BCIT curriculum, is a site for an imaginary business. I do not intend to distribute any of this property for profit, all image rights belong to their respective owners.
